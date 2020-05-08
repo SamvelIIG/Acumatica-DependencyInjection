@@ -19,7 +19,7 @@ namespace DependencyInjection
         {
             if(ServiceProvider!=null)
             {
-                throw new PXException("Dependency Injection Worked");
+                throw new PXException("Dependency Injection Worked! URL : {0}",ServiceProvider.URL);
             }
             else
             {
